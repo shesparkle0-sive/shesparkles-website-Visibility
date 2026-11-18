@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Elegant accounting desk with ledger books, calculator and financial reports">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#171315"/><stop offset="1" stop-color="#3a2927"/></linearGradient>
+ <linearGradient id="gold" x2="1" y2="1"><stop stop-color="#f5c9a6"/><stop offset=".5" stop-color="#b8795e"/><stop offset="1" stop-color="#f0bd91"/></linearGradient>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fff7ed"/><stop offset="1" stop-color="#d9c6b4"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="900" height="650" rx="28" fill="url(#bg)"/>
+<circle cx="715" cy="145" r="180" fill="#c58d83" opacity=".08"/>
+<ellipse cx="470" cy="570" rx="390" ry="34" fill="#000" opacity=".45" filter="url(#shadow)"/>
+<!-- plant -->
+<path d="M735 220q-70-120-18-160 58 65 18 160m-4 3q4-130 84-138 5 91-84 138m-9 8q-94-70-70-126 78 29 70 126" fill="#64715c" stroke="#9d9a76" stroke-width="4"/>
+<path d="M728 215v90" stroke="#9d9a76" stroke-width="5"/>
+<path d="M688 288h85l-13 85h-59z" fill="url(#gold)"/><path d="M688 288h85" stroke="#f5d5b8" stroke-width="5"/>
+<!-- book stack -->
+<g transform="translate(510 265)">
+ <path d="M0 65h280v72H0z" fill="#171417" stroke="url(#gold)" stroke-width="3"/>
+ <path d="M12 75h255" stroke="#d9a17f" stroke-width="2" opacity=".7"/>
+ <text x="140" y="108" fill="#eac09e" font-family="Georgia" font-size="23" text-anchor="middle" letter-spacing="2">ACCOUNTING</text>
+ <path d="M-10 0h300v65H-10z" fill="#242024" stroke="url(#gold)" stroke-width="3"/>
+ <text x="140" y="41" fill="#eac09e" font-family="Georgia" font-size="22" text-anchor="middle" letter-spacing="2">BOOKKEEPING</text>
+ <path d="M-22 137h300v65H-22z" fill="#332528" stroke="url(#gold)" stroke-width="3"/>
+ <text x="128" y="177" fill="#eac09e" font-family="Georgia" font-size="20" text-anchor="middle" letter-spacing="2">FINANCIAL RECORDS</text>
+</g>
+<!-- report sheet -->
+<path d="M120 395l370-44 72 185-372 55z" fill="url(#paper)" stroke="#c18a70" stroke-width="4"/>
+<path d="M164 427l290-34M174 456l145-17M184 485l145-17" stroke="#a98e7c" stroke-width="4" opacity=".7"/>
+<g fill="none" stroke="#b77960" stroke-width="7"><path d="M365 505l45-44 38 14 48-72"/><path d="M475 403l21 0-3 22"/></g>
+<g fill="#b77960"><rect x="183" y="518" width="16" height="44"/><rect x="209" y="503" width="16" height="59"/><rect x="235" y="486" width="16" height="76"/><rect x="261" y="470" width="16" height="92"/></g>
+<!-- calculator -->
+<g transform="translate(80 270) rotate(-8)">
+ <rect width="180" height="225" rx="18" fill="#171619" stroke="url(#gold)" stroke-width="5"/>
+ <rect x="18" y="18" width="144" height="48" rx="6" fill="#b8b5a8"/>
+ <text x="145" y="51" text-anchor="end" font-family="monospace" font-size="24" fill="#272321">128450</text>
+ <g fill="#b8876c" stroke="#f2c9a8" stroke-width="1.5">
+ <rect x="18" y="84" width="30" height="27" rx="5"/><rect x="58" y="84" width="30" height="27" rx="5"/><rect x="98" y="84" width="30" height="27" rx="5"/><rect x="138" y="84" width="24" height="27" rx="5"/>
+ <rect x="18" y="123" width="30" height="27" rx="5"/><rect x="58" y="123" width="30" height="27" rx="5"/><rect x="98" y="123" width="30" height="27" rx="5"/><rect x="138" y="123" width="24" height="27" rx="5"/>
+ <rect x="18" y="162" width="30" height="27" rx="5"/><rect x="58" y="162" width="30" height="27" rx="5"/><rect x="98" y="162" width="30" height="27" rx="5"/><rect x="138" y="162" width="24" height="27" rx="5"/>
+ </g>
+</g>
+<path d="M0 610q220-48 420 0t480-4v44H0z" fill="#100e10" opacity=".6"/>
+</svg>
